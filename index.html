@@ -3,11 +3,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rolig Meme</title>
     <style>
-      h1 {text-align: center;}
-      img {text-align: center;}
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img {
+        flex: 0;
+        max-width: 600px;
+      }
+
+      #grad1{
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      }
+
     </style>
   </head>
-  <body>
+  <body id="grad1">
     <h1>ROLIG MEME!!!</h1>
       <br>
     <img src="notkram.png"/>
